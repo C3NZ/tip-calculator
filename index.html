@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Tip Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+    <div class="container">
+
+        <h1 class="title">Tip Calculator</h1>
+        <div class='input-fields'>
+            <div class="amount">
+                <label class="input-label" for="cost">Cost&nbsp;</label>
+                <input id="cost" type="number" value="">
+            </div>
+
+            <div class="tip">
+                <label class="input-label" for="tip">Tip %</label>
+                <input id="tip" type="number" value="15">
+            </div>
+        
+        <div class="calculate">
+            <button id="calculate">Calculate</button>
+        </div>
+        </div>
+        <div class="results">
+            <div class="result">
+                <span class="result-label">Tip:</span>
+                <span id="tip-total">0.00</span>
+            </div>
+
+            <div class="result">
+                <span class="result-label">Total:</span>
+                <span id="total">0.00</span>
+            </div>
+        </div>
+</div>
+
+<script src="main.js"></script>
+
+	</body>
+</html>
+
